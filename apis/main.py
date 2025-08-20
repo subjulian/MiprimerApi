@@ -9,7 +9,3 @@ def read_root():
 @app.get("/saludo/{nombre}")
 def get_saludo(nombre: str):
     return {"Hello": nombre}
-
-@app.get("/numero/{numero}")
-def get_numero(numero: int):
-    return {"Numero": numero}
